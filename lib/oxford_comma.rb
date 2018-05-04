@@ -4,9 +4,9 @@ def oxford_comma(array)
   elsif array.length ==0
     puts array
   elsif array.length == 2
-    puts array.join(and)
+    puts array
   elsif array.length == 3
      array.join( )
-     puts array.index(1).join(, and)
+     
    else
 end
