@@ -12,8 +12,8 @@ def oxford_comma(array)
      return array1 + " " + array2
   else
     array2 = array[-1]
-  array = array2.insert(0, "and ")
-    array1 = array[0..-3].join(", ")
+   array2.insert(0, "and ")
+    array1 = array[0..-2].join(", ")
 
  return array1 + ", " + array2
 
